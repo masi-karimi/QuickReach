@@ -1,0 +1,19 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="15dp"
+    android:background="@drawable/group_background"
+    android:elevation="4dp">
+
+    <!-- Category Name -->
+    <TextView
+        android:id="@+id/group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/black"
+        android:paddingStart="20dp"/>
+</LinearLayout>
